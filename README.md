@@ -5,7 +5,7 @@ pip install -r requirements.txt
 ```
 
 # Manual
-## [seg.py](../seg.py)
+## [seg.py](./seg.py)
 > Usage: Water paper segmentation. 
 > 
 > -i  [IMAGE] 	path to the input image
@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 python seg.py -s -i ./img/IMG_20190621_094138.jpg
 ```
-## [counter.py](../counter.py)
+## [counter.py](./counter.py)
 > Usage: Detect spots & extract infomation.
 > 
 > -i  [IMAGE] 	path to the input image
@@ -24,7 +24,7 @@ python seg.py -s -i ./img/IMG_20190621_094138.jpg
 ```
 python counter.py -s -i ./img/IMG_20190621_094138_seg.jpg
 ```
-## [stat.py](../stat.py)
+## [stat.py](./stat.py)
 > Usage: descriptive statistics for spots info
 > 
 > -i  [DATA] 	path to the input csv
